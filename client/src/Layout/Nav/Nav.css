@@ -1,0 +1,45 @@
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center;
+  }
+
+
+
+  .home-link-wrapper {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .home-link {
+    text-align: left;
+  }
+  .home-text {
+    padding: 46px 324px 20px 60px;
+  }
+
+
+  .name-wrapper{
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .name-text {
+    padding: 40px 164px 20px 164px;
+  }
+
+
+  .nav-link-wrapper {
+    grid-area: 1 / 3 / 2 / 4; 
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 20px 80px;
+  }
+  .resume-link-wrapper {
+    padding: 0px 24px;
+  }
+  .about-link-wrapper {
+    padding: 0px 24px;
+  }
+  .contact-link-wrapper {
+    padding: 0px 24px;
+  }
