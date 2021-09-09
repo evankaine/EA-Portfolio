@@ -1,5 +1,6 @@
 import "./Home.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 import Nav from "../../Layout/Nav/Nav"
 import Header from "../../Layout/Header/Header"
 
@@ -11,9 +12,12 @@ export default function Home() {
       <div className="preview-wrapper">
 
         <div className="image-wrapper" id="projects">
-          <img className="syndicate-preview"
-            src="https://i.imgur.com/dZ0NCUX.png"
-            alt="syndicate preview" />
+          <a target="_blank" href="https://eathesyndicate.netlify.app/">
+            <img className="syndicate-preview"
+              src="https://i.imgur.com/dZ0NCUX.png"
+              alt="syndicate preview">
+            </img>
+          </a>
         </div>
 
         <div className="image-wrapper">

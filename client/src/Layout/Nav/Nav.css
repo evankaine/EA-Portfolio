@@ -26,14 +26,10 @@
   .home-text:hover {
     opacity: 0.6;
     transform: scale(1.01);
-    background-image: linear-gradient(
-    #462523 0,
-    #cb9b51 22%, 
-    #cb9b51 78%,
-    #462523 100%
-    );
-    color:transparent;
-    -webkit-background-clip:text;
+    color: #0960a7;
+  }
+  .home-text:active {
+    color: #0960a7;
   }
 
 
@@ -51,14 +47,10 @@
   .resume-text:hover {
     opacity: 0.6;
     transform: scale(1.01);
-    background-image: linear-gradient(
-    #462523 0,
-    #cb9b51 22%, 
-    #cb9b51 78%,
-    #462523 100%
-    );
-    color:transparent;
-    -webkit-background-clip:text;
+    color: #0960a7;
+  }
+  .resume-text:active {
+    color: #0960a7;
   }
   
   .about-link-wrapper {
@@ -67,14 +59,10 @@
   .about-text:hover {
     opacity: 0.6;
     transform: scale(1.01);
-    background-image: linear-gradient(
-    #462523 0,
-    #cb9b51 22%, 
-    #cb9b51 78%,
-    #462523 100%
-    );
-    color:transparent;
-    -webkit-background-clip:text;
+    color: #0960a7;
+  }
+  .about-text:active {
+    color: #0960a7;
   }
 
   .contact-link-wrapper {
@@ -83,12 +71,8 @@
   .contact-text:hover {
     opacity: 0.6;
     transform: scale(1.01);
-    background-image: linear-gradient(
-    #462523 0,
-    #cb9b51 22%, 
-    #cb9b51 78%,
-    #462523 100%
-    );
-    color:transparent;
-    -webkit-background-clip:text;
+    color: #0960a7;
+  }
+  .contact-text:active {
+    color: #0960a7;
   }

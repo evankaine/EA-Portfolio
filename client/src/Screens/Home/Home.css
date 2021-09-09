@@ -20,6 +20,13 @@
 .syndicate-preview {
   width: 600px;
   height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all .4s ease-in-out;
+}
+.syndicate-preview:hover {
+  opacity: .9;
+  filter: grayscale(20%);
+  transform: scale(1.04);
 }
 
 .scroll-to-top-wrapper {
@@ -29,7 +36,10 @@
 .scroll-to-top {
   padding: 32px;
 }
-
+.scroll-to-top:hover {
+  opacity: 0.6;
+  color: #0960a7;
+}
 
 
 @media (max-width:767px) {
