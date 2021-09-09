@@ -14,24 +14,20 @@ export default function Nav() {
           </Link>
         </div>
 
-        <div className="name-wrapper">
-          <h2 className="name-text">Evan Alves</h2>
-        </div>
-
         <div className="nav-link-wrapper">
           <div className="resume-link-wrapper">
             <Link to="/resume" className="resume-link">
-              <h3>Resume</h3>
+              <h3 className="resume-text">Resume</h3>
             </Link>
           </div>
           <div className="about-link-wrapper">
             <Link to="/about" className="about-link">
-              <h3>About</h3>
+              <h3 className="about-text">About</h3>
             </Link>
           </div>
           <div className="contact-link-wrapper">
             <Link to="/contact" className="contact-link">
-              <h3>Contact</h3>
+              <h3 className="contact-text">Contact</h3>
             </Link>
           </div>
 

@@ -1,0 +1,45 @@
+.header-wrapper {
+  background-image: linear-gradient( 
+    rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -110px;
+  text-align: center;
+}
+
+
+.header-text-name {
+  padding: 180px 0px 0px 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 100px;
+  letter-spacing: 8px;
+
+  background-image: linear-gradient(
+    #462523 0,
+    #cb9b51 22%, 
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+    );
+    color:transparent;
+    -webkit-background-clip:text;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.header-text {
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  padding: 14px 140px 4px 140px;
+}
+
+
+.arrow-icon {
+  padding: 164px ;
+  transform: rotate(90deg);
+}
+
