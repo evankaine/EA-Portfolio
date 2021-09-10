@@ -1,13 +1,13 @@
 import "./Home.css"
 import React from 'react'
 import { Link } from "react-router-dom"
-import Nav from "../../Layout/Nav/Nav"
+
 import Header from "../../Layout/Header/Header"
 
 export default function Home() {
   return (
     <div className="home-wrapper">
-      <Nav />
+      
       <Header />
       <div className="preview-wrapper">
 
@@ -31,19 +31,26 @@ export default function Home() {
         <div className="image-wrapper">
           <a target="_blank" href="https://eacrave.netlify.app/">
             <img className="syndicate-preview"
-              src="https://i.imgur.com/I4LSTEC.png"
+              src="https://i.imgur.com/VzeYdNQ.png"
               alt="Crave Preview" />
           </a>
         </div>
 
         <div className="image-wrapper">
-          <img className="syndicate-preview"
-            src=""
-            alt="Wayfinder Preview" />
+          <a target="_blank" href="https://evankaine.github.io/Wayfinder/">
+            <img className="syndicate-preview"
+              src="https://i.imgur.com/ucpXbkX.png"
+              alt="Wayfinder Preview" />
+          </a>
         </div>
       </div>
       <div className="scroll-to-top-wrapper">
-        <a className="scroll-to-top" href="/#header">Back To Top</a>
+        <a className="scroll-to-top"
+          href="/#header">
+          <span className='scroll-to-top-text'>
+            Back To Top
+          </span>
+        </a>
       </div>
     </div>
   )

@@ -36,7 +36,10 @@
 .scroll-to-top {
   padding: 32px;
 }
-.scroll-to-top:hover {
+.scroll-to-top-text {
+  color: rgb(57, 55, 55);
+}
+.scroll-to-top-text:hover {
   opacity: 0.6;
   color: #0960a7;
 }

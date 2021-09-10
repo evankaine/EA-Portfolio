@@ -11,30 +11,37 @@
 
 
 .header-text-name {
-  padding: 200px 0px 0px 0px;
-  font-size: 100px;
+  padding: 180px 0px 0px 0px;
+  font-size: 124px;
   letter-spacing: 8px;
   font-family: 'Kaisei HarunoUmi', serif;
   color: #bd8452;
 }
+
 .header-text {
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 30px;
   padding: 14px 150px 4px 150px;
+  color: rgb(57, 55, 55)
 }
-
 
 
 .scroll-wrapper {
   padding: 164px ;
 }
+
+
+
 .arrow-icon {
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.5);
+  cursor: pointer;
+  color: rgb(57, 55, 55)
 }
 .arrow-icon:hover {
   opacity: 0.6;
   color: #0960a7;
+  transform: rotate(90deg) scale(1.6);
 }
 
 

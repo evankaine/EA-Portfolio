@@ -6,6 +6,7 @@
   grid-row-gap: 0px;
   text-align: center;
   letter-spacing: 2px;
+  
   }
 
 
@@ -22,6 +23,7 @@
     font-size: 20px;
     opacity: 1;
     transition: all .2s ease-in-out;
+    color: rgb(57, 55, 55);
   }
   .home-text:hover {
     opacity: 0.6;
@@ -44,6 +46,9 @@
   .resume-link-wrapper {
     padding: 0px 24px;
   }
+  .resume-text {
+    color: rgb(57, 55, 55);
+  }
   .resume-text:hover {
     opacity: 0.6;
     transform: scale(1.01);
@@ -53,6 +58,9 @@
     color: #0960a7;
   }
   
+  .about-text {
+    color: rgb(57, 55, 55);
+  }
   .about-link-wrapper {
     padding: 0px 24px;
   }
@@ -67,6 +75,9 @@
 
   .contact-link-wrapper {
     padding: 0px 24px;
+  }
+  .contact-text {
+    color: rgb(57, 55, 55);
   }
   .contact-text:hover {
     opacity: 0.6;

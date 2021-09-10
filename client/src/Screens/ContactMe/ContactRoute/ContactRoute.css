@@ -1,0 +1,16 @@
+.contact-route-wrapper {
+  background-image: linear-gradient( 
+    rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -110px;
+  text-align: center;
+}
+
+.contact-route {
+  padding: 180px 0px 0px 0px;
+  letter-spacing: 4px;
+  font-family: 'Kaisei HarunoUmi', serif;
+}

@@ -18,6 +18,7 @@ export default function Header() {
         
       <div className="scroll-wrapper">
           <a className="scroll-to-projects" href="/#projects">
+
           <ArrowForwardIosIcon fontSize="large" className="arrow-icon"/>
           </a>
       </div>

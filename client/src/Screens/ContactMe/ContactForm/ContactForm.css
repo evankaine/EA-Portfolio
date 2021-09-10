@@ -1,0 +1,31 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  height: auto;
+  padding: 35px 50px;
+  border-radius: 2px;
+  /* box-shadow: 0 2px 10px rgb(57, 55, 55); */
+  background: rgba(0, 0, 0, 0.118);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.contact-text {
+  padding-bottom: 15px;
+}
+
+input {
+  height: 25px;
+}
+
+input, textarea {
+  margin: 5px 0px 5px 0px;
+}
