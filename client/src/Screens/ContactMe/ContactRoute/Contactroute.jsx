@@ -12,13 +12,12 @@ export default function Contactroute() {
       setIsSubmitted(true);
   }
 
-{/* {isSubmitted ?
-        <ThankYou /> : } */}
+
 
   return (
     <div className="contact-route-wrapper">
       <div className="contact-route">
-        <Form submitForm={submitForm} />
+        <Form />
       </div>
     </div>
   )

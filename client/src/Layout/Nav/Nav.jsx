@@ -27,7 +27,7 @@ export default function Nav() {
           </div>
           <div className="contact-link-wrapper">
             <Link to="/contact" className="contact-link">
-              <h3 className="contact-text">Contact</h3>
+              <h3 className="contact-text-nav">Contact</h3>
             </Link>
           </div>
 

@@ -5,9 +5,6 @@
   flex-wrap: wrap;
 }
 
-
-
-
 .image-wrapper {
   margin: 8px;
   padding: 12px 24px;
@@ -16,6 +13,7 @@
   align-items: center;
   flex: 1;
   flex-direction: column;
+  cursor: pointer;
 }
 .syndicate-preview {
   width: 600px;
@@ -35,9 +33,11 @@
 }
 .scroll-to-top {
   padding: 32px;
+  
 }
 .scroll-to-top-text {
   color: rgb(57, 55, 55);
+  font-family: 'Oswald', sans-serif;
 }
 .scroll-to-top-text:hover {
   opacity: 0.6;

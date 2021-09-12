@@ -1,6 +1,6 @@
-.header-wrapper {
+.wrap {
   background-image: linear-gradient( 
-    rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
+  rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -11,28 +11,24 @@
 
 
 .header-text-name {
-  padding: 180px 0px 0px 0px;
-  font-size: 124px;
-  letter-spacing: 8px;
-  font-family: 'Kaisei HarunoUmi', serif;
-  color: #bd8452;
+  padding: 120px 0px 0px 0px;
+  font-size: 120px;
+  letter-spacing: 2px;
 }
+
 
 .header-text {
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 30px;
-  padding: 14px 150px 4px 150px;
-  color: rgb(57, 55, 55)
+  padding: 20px 150px 4px 150px;
+  color: rgb(57, 55, 55);
 }
 
 
 .scroll-wrapper {
-  padding: 164px ;
+  padding: 20px ;
 }
-
-
-
 .arrow-icon {
   transform: rotate(90deg) scale(1.5);
   cursor: pointer;
@@ -45,3 +41,76 @@
 }
 
 
+
+.line {
+  width: 100vw;
+}
+.line::after {
+  width: 100vw;
+}
+
+.left, 
+.right {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+.left::after, 
+.right::after {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.left {
+  color:#5d8db8;
+  transform: skew(0deg, 10deg);
+}
+.left::after {
+  color:#5d8db8;
+  transform: skew(0deg, 10deg);
+}
+
+.right {
+  color: black;
+  transform: skew(0deg, -10deg);
+}
+.right::after {
+  color: black;
+  transform: skew(0deg, -10deg);
+}
+
+.left .content {
+  width: 100vw;
+  text-align: center;
+}
+.left::after .content::after {
+  width: 100vw;
+  text-align: center;
+}
+
+.right .content {
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
+}
+.right::after .content::after {
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
+}
+
+span {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  line-height: .8;
+  transition: ease-out .6s;
+}
+span::after {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  line-height: .8;
+  transition: ease-out .6s;
+}
