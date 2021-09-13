@@ -5,31 +5,43 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  margin-top: -110px;
+  margin-top: -100px;
   text-align: center;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
-.header-container {
 
-}
+/* 
+https://img.freepik.com/free-photo/abstract-rose-gold-satin-silky-cloth-background-fabric-textile-drape-with-crease-wavy-folds-with-soft-waves-waving-wind_44622-973.jpg?size=626&ext=jpg&ga=GA1.2.499722728.1630195200
+https://i.pinimg.com/564x/cb/27/4a/cb274a1c1035c45e041239602c4000c1--night-in-the-woods-aesthetic-alone-aesthetic.jpg
+https://data.whicdn.com/images/324376896/original.jpg
+http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads/2019/06/photoshop_to_baby_blue_silk_cp.jpg
+*/
+
+
 
 .header-text-name {
-  padding: 180px 0px 0px 0px;
-  font-size: 124px;
+  padding: 130px 0px 0px 0px;
+  font-size: 12vw;
   letter-spacing: 2px;
-  /* font-family: 'Kaisei HarunoUmi', serif; */
-  /* color: #bd8452; */
   display: block;
   margin:auto;
 }
-span {
+.title-span {
+  -webkit-background-clip: text;
+	background-clip: text;
+  background-image: url("https://data.whicdn.com/images/324376896/original.jpg");
+  color: transparent;
+  background-position: fixed;
+  background-size: 29vw ;
   transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
-  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   opacity:0;
-  animation: revolve 2s cubic-bezier(.47,.01,0,1.01) forwards 0.5s; 
+  animation: revolve 4s cubic-bezier(.47,.01,0,1.01) forwards .25s; 
+  text-shadow: 0px 12px 5px rgba(0, 0, 0, 0.064),
+  10px 10px 5px rgba(0, 0, 0, 0),
+  -10px 8px 5px rgba(0, 0, 0, 0.029);
 }
-
 @keyframes revolve {
   to{
     opacity:1;
@@ -38,29 +50,69 @@ span {
 }
 
 
+
+
+
 .header-text {
-  font-size: 20px;
+  font-size: 1.5vw;
   letter-spacing: 2px;
   line-height: 30px;
   padding: 14px 150px 4px 150px;
-  color: rgb(57, 55, 55);
+  color: #354A54;
+  display: block;
+  margin:auto;
 }
+.text-span {
+  transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
+  opacity:0;
+  animation: revolve 8s cubic-bezier(.47,.01,0,1.01) forwards 2s;
+}
+@keyframes revolve {
+  to{
+    opacity:1;
+    transform: translate3d(-50%,-50%,0);
+  }
+}
+
+
+
+
+
+
+hr {
+  border: 0;
+  display:block; 
+  width: 75%;          
+  height: 2px;
+  margin: auto;  
+  background: -webkit-gradient(linear, 0 0, 100% 0, 
+  from(transparent), to(transparent), 
+  color-stop(50%, #354A54));
+  /* transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0); */
+  opacity:0;
+  animation: revolve 6s cubic-bezier(.47,.01,0,1.01) forwards 1s;
+}
+@keyframes revolve {
+  to{
+    opacity:1;
+  }
+}
+
+
+
+
 
 
 .scroll-wrapper {
-  padding: 164px ;
+  padding: 130px ;
 }
-
-
-
 .arrow-icon {
   transform: rotate(90deg) scale(1.5);
   cursor: pointer;
-  color: rgb(57, 55, 55)
+  color: #354A54;
 }
 .arrow-icon:hover {
-  opacity: 0.6;
-  color: #0960a7;
+  color: #9bc1d6;
   transform: rotate(90deg) scale(1.6);
 }
 

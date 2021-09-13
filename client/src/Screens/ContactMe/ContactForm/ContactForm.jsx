@@ -30,7 +30,7 @@ return (
   <div className="contact-wrapper">
     {notSubmitted ? (
       <form className="contact-form" onSubmit={sendEmail}>
-        <h1 className="contact-text">Contact Me</h1>
+        <h1 className="contact-text">CONTACT ME</h1>
         <input placeholder="Name"
           type="text"
           name="name"

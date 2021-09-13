@@ -9,12 +9,17 @@ export default function Header() {
       
       <div className="header-container">
         
-        <h1 className="header-text-name"><span>EVAN ALVES</span></h1>
-        <p className="header-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <h1 className="header-text-name">
+          <span className="title-span">
+            EVAN ALVES
+          </span>
+        </h1>
+        <hr />
+        <p className="header-text"><span className="text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Suspendisse vitae massa quis lorem faucibus egestas.
           Nam porta lacus non augue cursus, sed commodo purus dapibus.
           Nunc ut metus sagittis justo vehicula scelerisque. Donec lectus erat,
-          rhoncus at dui ut, varius scelerisque sapien. Phasellus et consequat lacus.</p>
+          rhoncus at dui ut, varius scelerisque sapien. Phasellus et consequat lacus.</span></p>
         
       <div className="scroll-wrapper">
           <a className="scroll-to-projects" href="/#projects">

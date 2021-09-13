@@ -24,7 +24,7 @@
     font-size: 20px;
     opacity: 1;
     transition: all .2s ease-in-out;
-    color: rgb(57, 55, 55);
+    color: #354A54;
     display: inline-block;
     position: relative;
   }
@@ -47,7 +47,7 @@
     opacity: 1;
 	  -webkit-transform: scale(1);
 	  transform: scale(1);
-    color: #5d8db8;
+    color: #9bc1d6;
   }
 
 
@@ -62,7 +62,7 @@
     padding: 0px 24px;
   }
   .resume-text {
-    color: rgb(57, 55, 55);
+    color: #354A54;
     display: inline-block;
     position: relative;
     font-size: 20px;
@@ -86,7 +86,7 @@
     opacity: 1;
 	  -webkit-transform: scale(1);
 	  transform: scale(1);
-    color: #5d8db8;
+    color: #9bc1d6;
   }
   
 
@@ -94,7 +94,7 @@
     padding: 0px 24px;
   }
   .about-text {
-    color: rgb(57, 55, 55);
+    color: #354A54;
     display: inline-block;
     position: relative;
     font-size: 20px;
@@ -118,7 +118,7 @@
     opacity: 1;
 	  -webkit-transform: scale(1);
 	  transform: scale(1);
-    color: #5d8db8;
+    color: #9bc1d6;
   }
   
 
@@ -126,7 +126,7 @@
     padding: 0px 24px;
   }
   .contact-text-nav {
-    color: rgb(57, 55, 55);
+    color: #354A54;
     display: inline-block;
     position: relative;
     font-size: 20px;
@@ -150,5 +150,5 @@
     opacity: 1;
 	  -webkit-transform: scale(1);
 	  transform: scale(1);
-    color: #5d8db8;
+    color: #9bc1d6;
   }
