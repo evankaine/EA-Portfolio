@@ -1,29 +1,34 @@
 import React, { useState } from 'react'
+import { useHistory } from "react-router-dom";
 import emailjs from "emailjs-com"
 import "./ContactForm.css"
 import ThankYou from '../ThankYou/ThankYou';
 
+
 export default function ContactForm() {
 
   const [notSubmitted, setNotSubmitted] = useState(true)
+  let history = useHistory();
 
   function sendEmail(e) {
     e.preventDefault()
 
-    emailjs.sendForm(
-      'service_wbwv6t9',
-      'template_5aiorl8',
-      e.target,
-      'user_yaruvX1CD0EroUorr7pN5'
-    ).then(res => {
-      console.log(res)
-    }).catch(err => console.log(err))
+    // emailjs.sendForm(
+    //   'service_wbwv6t9',
+    //   'template_5aiorl8',
+    //   e.target,
+    //   'user_yaruvX1CD0EroUorr7pN5'
+    // ).then(res => {
+    //   console.log(res)
+    // }).catch(err => console.log(err))
 
     setNotSubmitted(false)
   }
 
   function returnForm() {
     setNotSubmitted(true)
+    history.push("./contact")
+
   }
 
 return (
