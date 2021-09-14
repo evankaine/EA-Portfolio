@@ -1,7 +1,8 @@
 import './App.css';
 import Nav from "./Layout/Nav/Nav"
 import Home from "./Screens/Home/Home"
-import ContactRoute from "./Screens/ContactMe/ContactRoute/Contactroute"
+import Contact from "../src/Screens/ContactMe/ContactForm/ContactForm"
+import ThankYou from "../src/Screens/ContactMe/ThankYou/ThankYou"
 import { Route } from "react-router-dom";
 
 function App() {
@@ -13,8 +14,13 @@ function App() {
       </Route>
         
       <Route exact path="/contact">
-        <ContactRoute />
+        <Contact />
       </Route>
+
+      <Route exact path="/thankyou">
+        <ThankYou />
+      </Route>
+
 
     </div>
   );
