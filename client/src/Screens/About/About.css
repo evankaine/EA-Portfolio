@@ -1,0 +1,44 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( 
+  rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -100px;
+}
+.about-container {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.linkedin-container {
+  grid-area: 1 / 1 / 2 / 2; 
+}
+
+.linkedin {
+  width: 100px;
+  padding: 50px;
+}
+.linkedin:hover {
+  transform: scale(1.1);
+}
+
+
+.github-container {
+  grid-area: 1 / 2 / 2 / 3; 
+}
+.github {
+  width: 100px;
+  padding: 50px;
+}
+.github:hover {
+  transform: scale(1.1);
+}

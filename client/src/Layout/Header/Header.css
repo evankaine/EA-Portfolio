@@ -7,7 +7,6 @@
   width: 100vw;
   margin-top: -100px;
   text-align: center;
-  grid-area: 1 / 1 / 2 / 2;
 }
 
 
@@ -21,8 +20,8 @@ http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads
 
 
 .header-text-name {
-  padding: 130px 0px 0px 0px;
-  font-size: 10vw;
+  padding: 120px 0px 0px 0px;
+  font-size: 12vw;
   letter-spacing: 2px;
   display: block;
   margin:auto;
@@ -54,7 +53,7 @@ http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads
 
 
 .header-text {
-  font-size: 1.5vw;
+  font-size: 2vw;
   letter-spacing: 2px;
   line-height: 30px;
   padding: 14px 150px 4px 150px;

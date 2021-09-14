@@ -1,8 +1,10 @@
 import './App.css';
 import Nav from "./Layout/Nav/Nav"
 import Home from "./Screens/Home/Home"
+import About from "../src/Screens/About/About"
 import Contact from "../src/Screens/ContactMe/ContactForm/ContactForm"
 import ThankYou from "../src/Screens/ContactMe/ThankYou/ThankYou"
+import Resume from "../src/Screens/Resume/Resume"
 import { Route } from "react-router-dom";
 
 function App() {
@@ -12,6 +14,14 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
+
+      <Route exact path="/resume">
+        <Resume />
+      </Route>
+      
+      <Route exact path="/about">
+        <About />
+      </Route> 
         
       <Route exact path="/contact">
         <Contact />
@@ -20,7 +30,6 @@ function App() {
       <Route exact path="/thankyou">
         <ThankYou />
       </Route>
-
 
     </div>
   );

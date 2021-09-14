@@ -1,0 +1,72 @@
+.resume-wrapper {
+  overflow: hidden;
+  background-image: linear-gradient( 
+  rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -100px;
+  text-align: center;
+  height: 100vh;
+}
+
+.resume-container {
+    padding: 100px 0px 0px 0px;
+    display: block;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pdf-import {
+  height: 36vw;
+  width: 60vw;
+}
+.download-text {
+  font-size: 24px;
+  color: #3B4856;
+  margin-top: 10px;
+}
+
+.resume-downloads {
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  color: #3B4856;
+}
+
+.pdf-wrapper {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 14px;
+  height: 28px;
+  width: 56px;
+}
+.pdf-wrapper:hover {
+  opacity: 0.6;
+  background-color: #0960a7;
+}
+.pdf-download {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.word-wrapper {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 14px;
+  height: 28px;
+  width: 56px;
+}
+.word-wrapper:hover {
+  opacity: 0.6;
+  background-color: #0960a7;
+}
+.word-download {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
