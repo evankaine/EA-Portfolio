@@ -33,11 +33,13 @@
 
 input {
   height: 30px;
+  
 }
 
 input, textarea {
   margin: 5px 0px 5px 0px;
   padding-left: 6px;
+  -webkit-appearance: none;
 }
 
 textarea {
