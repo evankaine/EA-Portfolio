@@ -15,6 +15,7 @@ https://img.freepik.com/free-photo/abstract-rose-gold-satin-silky-cloth-backgrou
 https://i.pinimg.com/564x/cb/27/4a/cb274a1c1035c45e041239602c4000c1--night-in-the-woods-aesthetic-alone-aesthetic.jpg
 https://data.whicdn.com/images/324376896/original.jpg
 http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads/2019/06/photoshop_to_baby_blue_silk_cp.jpg
+https://data.whicdn.com/images/324376896/original.jpg
 */
 
 
@@ -27,13 +28,13 @@ http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads
   margin:auto;
 }
 .title-span {
-  /* -webkit-background-clip: text;
+  -webkit-background-clip: text;
 	background-clip: text;
-  background-image: url("https://data.whicdn.com/images/324376896/original.jpg");
+  background-image: url("http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads/2019/06/photoshop_to_baby_blue_silk_cp.jpg");
   color: transparent;
   background-position: fixed;
-  background-size: 29vw ; */
-  color: #354A54;
+  background-size: 29vw ;
+  /* color: #354A54; */
   transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
   text-transform: uppercase;
   opacity:0;

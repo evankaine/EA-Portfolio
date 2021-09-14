@@ -47,11 +47,11 @@
 }
 
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .image-wrapper {
     flex-basis: calc(50% - 12px);
   }
-}
+} */
 @media (max-width:600px) {
   .syndicate-preview {
     width: 300px;
@@ -59,9 +59,9 @@
     
   }
 }
-@media (max-width:460px) {
+/* @media (max-width:460px) {
   .image-wrapper {
     flex-basis: 100%;
   }
-}
+} */
 
