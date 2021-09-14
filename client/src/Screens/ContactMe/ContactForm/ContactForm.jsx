@@ -10,14 +10,14 @@ export default function ContactForm() {
   function sendEmail(e) {
     e.preventDefault()
 
-    // emailjs.sendForm(
-    //   'service_wbwv6t9',
-    //   'template_5aiorl8',
-    //   e.target,
-    //   'user_yaruvX1CD0EroUorr7pN5'
-    // ).then(res => {
-    //   console.log(res)
-    // }).catch(err => console.log(err))
+    emailjs.sendForm(
+      'service_wbwv6t9',
+      'template_5aiorl8',
+      e.target,
+      'user_yaruvX1CD0EroUorr7pN5'
+    ).then(res => {
+      console.log(res)
+    }).catch(err => console.log(err))
 
     setNotSubmitted(false)
   }
