@@ -21,18 +21,19 @@ http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads
 
 .header-text-name {
   padding: 120px 0px 0px 0px;
-  font-size: 12vw;
+  font-size: 16vw;
   letter-spacing: 2px;
   display: block;
   margin:auto;
 }
 .title-span {
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text;
 	background-clip: text;
   background-image: url("https://data.whicdn.com/images/324376896/original.jpg");
   color: transparent;
   background-position: fixed;
-  background-size: 29vw ;
+  background-size: 29vw ; */
+  color: #354A54;
   transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
   text-transform: uppercase;
   opacity:0;
@@ -116,3 +117,28 @@ hr {
 }
 
 
+@media (max-width: 600px) {
+  .header-text-name {
+    padding: 180px 20px 0px 20px;
+    font-size: 120px;
+    letter-spacing: 4px;
+    
+  }
+  .title-span {
+    background-size: 75vw ;
+    background-image: none;
+    color: #354A54;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.0),
+  0px 0px 5px rgba(0, 0, 0, 0.00),
+  0px 0px 5px rgba(0, 0, 0, 0.00);
+  }
+  .header-text {
+    font-size: 5vw;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 14px 25px 4px 25px;
+    color: #354A54;
+    display: block;
+    margin:auto;
+  }
+}

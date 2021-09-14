@@ -6,7 +6,6 @@
   grid-row-gap: 0px;
   text-align: center;
   letter-spacing: 2px;
-  
   }
 
 
@@ -151,4 +150,24 @@
 	  -webkit-transform: scale(1);
 	  transform: scale(1);
     color: #9bc1d6;
+  }
+
+
+
+  @media (max-width: 600px) {
+    .nav-wrapper {
+      display: none;
+    }
+    .home-link-wrapper {
+      display: none;
+    }
+    .resume-link-wrapper {
+      display: none;
+    }
+    .about-link-wrapper {
+      display: none;
+    }
+    .contact-link-wrapper {
+      display: none;
+    }
   }

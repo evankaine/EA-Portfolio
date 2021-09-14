@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from "./Layout/Nav/Nav"
+import MobileNav from "./Layout/Nav/MobileNav"
 import Home from "./Screens/Home/Home"
 import About from "../src/Screens/About/About"
 import Contact from "../src/Screens/ContactMe/ContactForm/ContactForm"
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <MobileNav />
       <Route exact path="/">
         <Home />
       </Route>

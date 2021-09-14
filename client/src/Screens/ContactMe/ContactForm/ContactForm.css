@@ -65,3 +65,24 @@ input:focus, textarea:focus {
   opacity: 0.6;
   transform: scale(1.01);
 }
+
+
+@media (max-width: 600px) {
+  .contact-form {
+    margin-top: 25px;
+    width: 300px;
+    height: 350px;
+    padding: 35px 25px;
+    
+  }
+}
+
+@media (max-height: 600px) {
+  .contact-form {
+    margin-top: 25px;
+    width: 300px;
+    height: 350px;
+    padding: 35px 25px;
+    
+  }
+}
