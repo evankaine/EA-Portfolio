@@ -12,12 +12,6 @@ export default function ThankYou() {
         className="giphy-embed"
         allowFullScreen>
       </iframe>
-      <form >
-        <input className="return-button"
-          type="submit"
-          value="Return to Contact Form">
-        </input>
-      </form>
     </div>
   </div>
   )
