@@ -90,4 +90,7 @@
     height: 50px;
     width: 100px;
   }
+  .pdf-import {
+    display: none;
+  }
 }
