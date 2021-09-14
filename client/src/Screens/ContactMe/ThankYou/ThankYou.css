@@ -24,20 +24,3 @@
   margin: 12px;
 }
 
-.return-button {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline:none;
-  color: #354A54;
-  font-size: 10px;
-  margin-top: 5px;
-  height: 45px;
-}
-
-.return-button:hover {
-  transform: scale(1.01);
-  color: #9bc1d6;
-}

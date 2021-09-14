@@ -15,11 +15,7 @@ export default function Header() {
           </span>
         </h1>
         <hr />
-        <p className="header-text"><span className="text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Suspendisse vitae massa quis lorem faucibus egestas.
-          Nam porta lacus non augue cursus, sed commodo purus dapibus.
-          Nunc ut metus sagittis justo vehicula scelerisque. Donec lectus erat,
-          rhoncus at dui ut, varius scelerisque sapien. Phasellus et consequat lacus.</span></p>
+        <p className="header-text"><span className="text-span">Front end web developer from Brooklyn, NY</span></p>
         
       <div className="scroll-wrapper">
           <a className="scroll-to-projects" href="/#projects">
