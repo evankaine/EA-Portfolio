@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
-import { useHistory } from "react-router-dom";
+import React, { Component } from 'react'
 import emailjs from "emailjs-com"
+import { withRouter } from 'react-router-dom';
 import "./ContactForm.css"
-import ThankYou from '../ThankYou/ThankYou';
 
+class ContactForm extends Component {
 
-export default function ContactForm() {
-
-  const [notSubmitted, setNotSubmitted] = useState(true)
-  let history = useHistory();
-
-  function sendEmail(e) {
+  sendEmail(e) {
     e.preventDefault()
 
     // emailjs.sendForm(
@@ -22,19 +17,13 @@ export default function ContactForm() {
     //   console.log(res)
     // }).catch(err => console.log(err))
 
-    setNotSubmitted(false)
+    this.props.history.push('/thankyou');
   }
-
-  function returnForm() {
-    setNotSubmitted(true)
-    history.push("./contact")
-
-  }
-
-return (
-  <div className="contact-wrapper">
-    {notSubmitted ? (
-      <form className="contact-form" onSubmit={sendEmail}>
+  
+  render() {
+    return (
+    <div className="contact-wrapper">
+      <form className="contact-form" onSubmit={this.sendEmail.bind(this)}>
         <h1 className="contact-text">CONTACT ME</h1>
         <input placeholder="Name"
           type="text"
@@ -51,14 +40,10 @@ return (
         <input className="input-button"
           type="submit"
           value="Send">
-          </input>
+        </input>
       </form>
-    ) : (
-      <div>
-        <ThankYou onClick={returnForm} />
-          
-      </div>
-    )}
     </div>
-  )
+    )
+  }
 }
+export default withRouter(ContactForm);
