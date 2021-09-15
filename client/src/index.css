@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* font-family: 'Nunito', sans-serif; */
 }
 html {
@@ -13,7 +13,6 @@ html {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-
 }
 
 body {

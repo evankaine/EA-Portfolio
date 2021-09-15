@@ -13,7 +13,7 @@ export default function NavLinks() {
 
   return (
     <div className="navbar">
-      
+
           <Link to="#" className="menu-bars">
             <MenuIcon onClick={showSidebar} />
           </Link>

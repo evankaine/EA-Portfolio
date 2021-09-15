@@ -1,9 +1,9 @@
 .header-wrapper {
-  background-image: linear-gradient( 
+  /* background-image: linear-gradient( 
   rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-size: cover; */
+  /* height: 100vh; */
   width: 100vw;
   margin-top: -100px;
   text-align: center;
@@ -21,59 +21,60 @@ https://data.whicdn.com/images/324376896/original.jpg
 
 
 .header-text-name {
-  padding: 120px 0px 0px 0px;
-  font-size: 16vw;
+  padding: 100px 0px 0px 0px;
+  font-size: 140px;
   letter-spacing: 2px;
   display: block;
   margin:auto;
 }
 .title-span {
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text;
 	background-clip: text;
   background-image: url("http://www.eventsourcesolutions.com/Demo_eventsourcesolutions/wp-content/uploads/2019/06/photoshop_to_baby_blue_silk_cp.jpg");
   color: transparent;
   background-position: fixed;
-  background-size: 29vw ;
-  /* color: #354A54; */
-  transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
+  background-size: 29vw ; */
+  color: black;
+  /* transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
   text-transform: uppercase;
   opacity:0;
-  animation: revolve 4s cubic-bezier(.47,.01,0,1.01) forwards .25s; 
+  animation: revolve 4s cubic-bezier(.47,.01,0,1.01) forwards .25s;  */
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.075),
   0px 0px 5px rgba(0, 0, 0, 0.02),
   0px 0px 5px rgba(0, 0, 0, 0.04);
 }
-@keyframes revolve {
+/* @keyframes revolve {
   to{
     opacity:1;
     transform: translate3d(-50%,-50%,0);
   }
-}
+} */
 
 
 
 
 
 .header-text {
-  font-size: 2vw;
+  font-size: 40px;
   letter-spacing: 2px;
-  line-height: 30px;
-  padding: 14px 150px 4px 150px;
-  color: #354A54;
-  display: block;
-  margin:auto;
+  margin: 0px 100px 0px 100px;
+  padding: 165px 80px 10px 80px;
+  color: #28282B;
+  font-weight: 400;
+  z-index: -2;
+  /* display: block; */
 }
 .text-span {
-  transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
+  /* transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
   opacity:0;
-  animation: revolve 8s cubic-bezier(.47,.01,0,1.01) forwards 2s;
+  animation: revolve 8s cubic-bezier(.47,.01,0,1.01) forwards 2s; */
 }
-@keyframes revolve {
+/* @keyframes revolve {
   to{
     opacity:1;
     transform: translate3d(-50%,-50%,0);
   }
-}
+} */
 
 
 
@@ -88,16 +89,16 @@ hr {
   margin: auto;  
   background: -webkit-gradient(linear, 0 0, 100% 0, 
   from(transparent), to(transparent), 
-  color-stop(50%, #354A54));
+  color-stop(50%, #28282B));
   /* transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0); */
   opacity:0;
   animation: revolve 6s cubic-bezier(.47,.01,0,1.01) forwards 1s;
 }
-@keyframes revolve {
+/* @keyframes revolve {
   to{
     opacity:1;
   }
-}
+} */
 
 
 
@@ -110,7 +111,7 @@ hr {
 .arrow-icon {
   transform: rotate(90deg) scale(1.5);
   cursor: pointer;
-  color: #354A54;
+  color: #28282B;
 }
 .arrow-icon:hover {
   color: #9bc1d6;
@@ -128,17 +129,16 @@ hr {
   .title-span {
     background-size: 75vw ;
     background-image: none;
-    color: #354A54;
+    color: #28282B;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.0),
   0px 0px 5px rgba(0, 0, 0, 0.00),
   0px 0px 5px rgba(0, 0, 0, 0.00);
   }
   .header-text {
-    font-size: 5vw;
+    font-size: 25px;
     letter-spacing: 2px;
-    line-height: 30px;
-    padding: 14px 25px 4px 25px;
-    color: #354A54;
+    padding: 120px 25px 4px 25px;
+    color: #28282B;
     display: block;
     margin:auto;
   }

@@ -1,20 +1,19 @@
 
 .navbar {
-  padding-left: 5px;
+  background: white;
+  padding-right: 20px;
   padding-top: 10px;
-  height: 80px;
+  height: 65px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  z-index: 9999;
+  align-items: flex-end;
 }
 
 .menu-bars {
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
   transform: scale(2);
-  background: none;
 }
 
 .nav-menu {
@@ -35,19 +34,21 @@
 
 .nav-text {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  padding: 8px 40px 8px 40px;
+  padding: 20px 80px 20px 40px;
   list-style: none;
   height: 20px;
   text-align: center;
+  
 }
 
 .nav-text a {
+  text-align: center;
   text-decoration: none;
-  color: #354A54;
+  color: #28282B;
   font-size: 22px;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   align-items: center;
@@ -56,24 +57,26 @@
 }
 .nav-text a:hover {
   opacity: .8;
-  color: #9bc1d6;
 }
 
 .nav-menu-items {
-  background: rgba(108, 108, 108, 0.187);
-  backdrop-filter: saturate(180%) blur(6px);
+  width: 100vw;
+  background: white;
   border-radius: 2px;
   padding: 0;
-  width: 100%;
+  position: relative;
+  z-index: 9999;
 }
 
 .navbar-toggle {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  position: relative;
+  z-index: 9999;
 }
 
 @media (min-width: 600px) {

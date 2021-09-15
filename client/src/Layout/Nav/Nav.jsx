@@ -13,6 +13,10 @@ export default function Nav() {
           </Link>
         </div>
 
+        <div className="logo">
+          <h1 className="logo-text">＜EVAN/﹥</h1>
+        </div>
+
         <div className="nav-link-wrapper">
           <div className="resume-link-wrapper">
             <Link to="/resume" className="resume-link">
