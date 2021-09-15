@@ -2,7 +2,6 @@ import React from 'react'
 import "./Resume.css"
 import pdf from "../Resume/EvanAlvesResume.pdf"
 import word from "../Resume/EvanAlvesResume.docx"
-import GetAppIcon from '@material-ui/icons/GetApp';
 
 export default function Resume() {
   return (
@@ -16,6 +15,7 @@ export default function Resume() {
         <div className="pdf-wrapper"> 
           <a className="pdf-download"
             href={pdf}
+            rel="noreferrer"
             target="_blank"
             filename="EvanAlvesResume.pdf" download>
               PDF
@@ -25,6 +25,7 @@ export default function Resume() {
         <div className="word-wrapper">
           <a className="word-download"
             href={word}
+            rel="noreferrer"
             target="_blank"
             filename="EvanAlvesResume.docx" download>
               Word

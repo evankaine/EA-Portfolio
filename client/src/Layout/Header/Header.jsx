@@ -1,6 +1,4 @@
 import "./Header.css"
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-
 import React from 'react'
 
 export default function Header() {

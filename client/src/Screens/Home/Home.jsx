@@ -1,6 +1,5 @@
 import "./Home.css"
 import React from 'react'
-import { Link } from "react-router-dom"
 
 import Header from "../../Layout/Header/Header"
 
@@ -12,7 +11,7 @@ export default function Home() {
       <div className="preview-wrapper">
 
         <div className="image-wrapper" id="projects">
-          <a target="_blank" href="https://eathesyndicate.netlify.app/">
+          <a rel="noreferrer" target="_blank" href="https://eathesyndicate.netlify.app/">
             <img className="syndicate-preview"
               src="https://i.imgur.com/a7SuIQd.png"
               alt="Syndicate Preview">
@@ -21,7 +20,7 @@ export default function Home() {
         </div>
 
         <div className="image-wrapper">
-          <a target="_blank" href="https://eaimgnation.netlify.app/">
+          <a rel="noreferrer" target="_blank" href="https://eaimgnation.netlify.app/">
             <img className="syndicate-preview"
               src="https://i.imgur.com/l35PCkg.png"
               alt="imgNation Preview" />
@@ -29,7 +28,7 @@ export default function Home() {
         </div>
 
         <div className="image-wrapper">
-          <a target="_blank" href="https://eacrave.netlify.app/">
+          <a rel="noreferrer" target="_blank" href="https://eacrave.netlify.app/">
             <img className="syndicate-preview"
               src="https://i.imgur.com/VzeYdNQ.png"
               alt="Crave Preview" />
@@ -37,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className="image-wrapper">
-          <a target="_blank" href="https://evankaine.github.io/Wayfinder/">
+          <a rel="noreferrer" target="_blank" href="https://evankaine.github.io/Wayfinder/">
             <img className="syndicate-preview"
               src="https://i.imgur.com/ucpXbkX.png"
               alt="Wayfinder Preview" />

@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import "./MobileNav.css"
 import { Link } from "react-router-dom"
 import MenuIcon from '@material-ui/icons/Menu';
-import CloseIcon from '@material-ui/icons/Close';
 import { SidebarData } from './SidebarData';
 
 export default function NavLinks() {
@@ -20,7 +19,7 @@ export default function NavLinks() {
 
         <nav className={sidebar ? 'nav-menu-active' : 'nav-menu'}>
           <ul className="nav-menu-items">
-            <li className="navbar-toggle">
+            <div className="navbar-toggle">
               
             
           {SidebarData.map((item, index) => {
@@ -33,7 +32,7 @@ export default function NavLinks() {
               </li>
             )
           })}
-          </li>
+          </div>
           </ul>
         </nav>
     </div>

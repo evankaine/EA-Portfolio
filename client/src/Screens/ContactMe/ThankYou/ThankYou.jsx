@@ -6,7 +6,7 @@ export default function ThankYou() {
   <div className="contact-wrapper">
     <div className="thankyou-wrapper">
       <h1 className="contact-text-text">Thank You!</h1>
-      <iframe src="https://giphy.com/embed/gOkawaguYNiSI"
+      <iframe title="gif" src="https://giphy.com/embed/gOkawaguYNiSI"
         width="480" height="180"
         frameBorder="0"
         className="giphy-embed"
