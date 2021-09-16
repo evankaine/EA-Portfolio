@@ -3,7 +3,8 @@ import "./ThankYou.css"
 
 export default function ThankYou() {
   return (
-  <div className="contact-wrapper">
+    <div className="contact-wrapper">
+    <div className="contact-container">
     <div className="thankyou-wrapper">
       <h1 className="contact-text-text">Thank You!</h1>
       <iframe title="gif" src="https://giphy.com/embed/gOkawaguYNiSI"
@@ -12,6 +13,7 @@ export default function ThankYou() {
         className="giphy-embed"
         allowFullScreen>
       </iframe>
+      </div>
     </div>
   </div>
   )

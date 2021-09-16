@@ -1,17 +1,17 @@
 .contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-image: linear-gradient( 
-  rgba(255, 255, 255, 0.208), rgb(255, 255, 255)), url("https://i.imgur.com/Laqczwc.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  height: 100vh;
-  width: 100vw;
   margin-top: -100px;
+  height: 100vh;
+  
 }
-
+.contact-container {
+  padding: 140px 0px 0px 0px;
+  display: block;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -76,16 +76,7 @@ input:focus, textarea:focus {
 
 @media (max-width: 600px) {
   .contact-form {
-    margin-top: 25px;
-    width: 275px;
-    height: 350px;
-    padding: 35px 25px;
-    
-  }
-}
-
-@media (max-height: 600px) {
-  .contact-form {
+    margin-top: 75px;
     width: 275px;
     height: 350px;
     padding: 35px 25px;

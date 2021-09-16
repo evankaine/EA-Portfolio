@@ -23,6 +23,7 @@ class ContactForm extends Component {
   render() {
     return (
     <div className="contact-wrapper">
+      <div className="contact-container">
       <form className="contact-form" onSubmit={this.sendEmail.bind(this)}>
         <h1 className="contact-text">CONTACT ME</h1>
         <input placeholder="Name"
@@ -41,7 +42,8 @@ class ContactForm extends Component {
           type="submit"
           value="Send">
         </input>
-      </form>
+        </form>
+        </div>
     </div>
     )
   }
