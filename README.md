@@ -5,6 +5,7 @@ https://evanalves-portfolio.netlify.app/
 ## Overview
 
 This is my portfolio created in React displaying all my completed projects.
+<br />
 Includes:
 * Home page with previews created in Figma
 * Resume page with PDF viewer and working download links for DOCX and PDF
