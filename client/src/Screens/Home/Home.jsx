@@ -1,6 +1,6 @@
 import "./Home.css"
 import React from 'react'
-
+import IsItHot from "./isithotpreview.png"
 import Header from "../../Layout/Header/Header"
 
 export default function Home() {
@@ -24,6 +24,15 @@ export default function Home() {
             <img className="syndicate-preview"
               src="https://i.imgur.com/l35PCkg.png"
               alt="imgNation Preview" />
+          </a>
+        </div>
+
+        <div className="image-wrapper" id="projects">
+          <a rel="noreferrer" target="_blank" href="https://isithot.netlify.app/">
+            <img className="syndicate-preview"
+              src={IsItHot}
+              alt="Is It Hot Preview">
+            </img>
           </a>
         </div>
 
