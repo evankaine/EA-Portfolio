@@ -16,7 +16,7 @@ export default function About() {
             <span className="about-title">About Me</span>
               <br />
             <span className="about-content">
-              My name is Evan Alves and I am a Front End Developer
+              My name is Evan Alves and I am a Software Engineer
               and recent graduate of General Assembly.
 
               I have a thirst for knowledge and love taking on new challenges.

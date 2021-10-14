@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Resume.css"
-import pdf from "../Resume/EvanAlvesResume.pdf"
-import word from "../Resume/EvanAlvesResume.docx"
+import pdf from "../Resume/EvanAResume.pdf"
+import word from "../Resume/EvanAResume.docx"
 
 export default function Resume() {
   return (
