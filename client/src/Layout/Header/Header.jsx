@@ -12,7 +12,7 @@ export default function Header() {
             EVAN ALVES
           </span>
         </h1> */}
-        <p className="header-text"><span className="text-span">HI, I'm Evan - a software engineer based in Brooklyn, NY</span></p>
+        <p className="header-text"><span className="text-span">HI, I'm Evan - a web developer based in Brooklyn, NY</span></p>
         {/* <hr /> */}
       {/* <div className="scroll-wrapper">
           <a className="scroll-to-projects" href="/#projects">
